@@ -153,14 +153,18 @@ class MujocoVisualizer:
             self.width, self.height = render_w, render_h
             self.renderer = mujoco.Renderer(sim.mj_model, render_h, render_w)
 
-            # Setup tactical free camera centered on the engagement airspace
+            # Low rear view: turret at the bottom, airspace above it.
             self.camera = mujoco.MjvCamera()
             mujoco.mjv_defaultFreeCamera(sim.mj_model, self.camera)
-            self.camera.lookat[:] = [0.0, 2.5, 1.2]
-            self.camera.distance = 7.0
-            self.camera.elevation = -22.0
-            self.camera.azimuth = 180.0
+            self._configure_camera(self.camera)
             self._camera_initialized = False
+
+    def _configure_camera(self, camera) -> None:
+        """Frame the turret from behind with an upward view of the drones."""
+        camera.lookat[:] = np.asarray(self.env.turret.base_pos) + [0.0, 3.8, 2.9]
+        camera.distance = 9.0
+        camera.elevation = 20.0
+        camera.azimuth = 90.0
 
     def _sync_jax_to_mujoco(self) -> None:
         """
@@ -287,10 +291,7 @@ class MujocoVisualizer:
 
                 # Auto-initialize tactical camera on first render
                 if not getattr(self, "_camera_initialized", False) and hasattr(v, "cam") and v.cam is not None:
-                    v.cam.lookat[:] = [0.0, 2.5, 1.2]
-                    v.cam.distance = 7.0
-                    v.cam.elevation = -22.0
-                    v.cam.azimuth = 180.0
+                    self._configure_camera(v.cam)
                     self._camera_initialized = True
 
                 # 1. Turret Base

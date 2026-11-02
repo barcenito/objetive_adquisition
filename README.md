@@ -8,6 +8,17 @@ con Crazyflow/JAX para la dinámica de los drones.
 El radar y los actuadores son modelos de software. El SDK C y los archivos
 de hardware se conservan como referencias independientes del simulador.
 
+## Vista previa
+
+### Simulación Matplotlib
+
+
+![Simulación 3D y telemetría en Matplotlib](assets/examples/test_video.gif)
+
+### Simulación MuJoCo
+
+![Simulación MuJoCo desde detrás de la torreta](assets/examples/test_mujoco.gif)
+
 ## Estructura
 
 ```text
