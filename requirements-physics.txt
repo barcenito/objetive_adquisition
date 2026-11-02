@@ -1,0 +1,7 @@
+# Motor físico y visualizador opcionales.
+-r requirements.txt
+jax==0.6.2
+crazyflow==0.0.1
+mujoco==3.11.0
+gymnasium==1.3.0
+glfw==2.10.2

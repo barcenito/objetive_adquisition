@@ -1,0 +1,36 @@
+# Python y entornos locales
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.python-version
+*.egg-info/
+build/
+dist/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Configuración local y credenciales
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+.DS_Store
+.idea/
+.vscode/
+
+# Estado local de Eclipse / STM32CubeIDE
+.metadata/
+hardware/prueba1/.settings/
+hardware/prueba1/Debug/
+hardware/prueba1/Release/
+
+# Resultados generados; los ejemplos de assets/ sí se versionan
+/outputs/*
+!/outputs/.gitkeep
+/test_*.mp4
+/test_*.gif

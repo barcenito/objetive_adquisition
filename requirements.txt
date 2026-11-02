@@ -1,0 +1,5 @@
+# Dependencias del simulador básico y de la visualización Matplotlib.
+# Versiones presentes en el entorno de referencia Python 3.10.
+numpy==2.2.6
+matplotlib==3.10.9
+Pillow==12.3.0

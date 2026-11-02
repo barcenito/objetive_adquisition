@@ -1,0 +1,3 @@
+# Mantener el SDK original sin exigir cambios de formato al fabricante.
+vendor/acconeer_sdk/** -whitespace
+hardware/Acconeer_A121_sensor_Altium_Libv/** -whitespace
