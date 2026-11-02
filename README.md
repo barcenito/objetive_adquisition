@@ -113,7 +113,16 @@ python -m unittest tests.test_coordinates tests.test_servo_motor -v
 
 ## Licencias
 
-El SDK conserva sus avisos y licencias originales en
+Copyright (c) 2026 Carlos Barcenilla Villalon. Todos los derechos reservados.
+
+El material original del proyecto se distribuye bajo una
+[licencia propietaria de evaluación](LICENSE.md): permite consultar y ejecutar
+el proyecto para evaluar al autor en entrevistas y procesos de selección.
+Cualquier uso empresarial interno, comercial, productivo o reutilización en
+otros proyectos requiere autorización previa y escrita y un acuerdo independiente
+con el titular que establezca el alcance, el precio y las condiciones.
+
+Los componentes y recursos de terceros mantienen sus propias licencias.
+En particular, el SDK conserva sus avisos y licencias originales en
 [`vendor/acconeer_sdk/LICENSES/`](vendor/acconeer_sdk/LICENSES/).
-Este repositorio no establece una licencia adicional para el código propio
-ni para los recursos de hardware.
+Consulta [LICENSE.md](LICENSE.md) para conocer las condiciones completas.
