@@ -1,0 +1,19 @@
+var searchData=
+[
+  ['cal_5fiterations_2760',['CAL_ITERATIONS',['../ref__app__parking_8c.html#abc56de9f82a557ee60515b26195aa894',1,'ref_app_parking.c']]],
+  ['cargo_5fconfig_5fmagic_2761',['CARGO_CONFIG_MAGIC',['../example__cargo_8c.html#a3c163d14f16d91f7ab5960476c007074',1,'example_cargo.c']]],
+  ['cargo_5fpresence_5fmin_5fsweeps_5fper_5fframe_2762',['CARGO_PRESENCE_MIN_SWEEPS_PER_FRAME',['../example__cargo_8c.html#a2ad5b7a063b041dc8f922b69c452d58a',1,'example_cargo.c']]],
+  ['cargo_5fpresence_5fmin_5fupdate_5frate_2763',['CARGO_PRESENCE_MIN_UPDATE_RATE',['../example__cargo_8c.html#a859f8d2d20382224645d9e1dbc5d5a6f',1,'example_cargo.c']]],
+  ['cargo_5fpresence_5frun_5ftime_5fs_2764',['CARGO_PRESENCE_RUN_TIME_S',['../example__cargo_8c.html#a1fbd7943f319ac35ed90ea9e402f9092',1,'example_cargo.c']]],
+  ['cfar_5fhalf_5fguard_5flength_2765',['CFAR_HALF_GUARD_LENGTH',['../example__vibration_8c.html#ad9c8d0b77ea0fc0b834dfcae7c406212',1,'example_vibration.c']]],
+  ['cfar_5fmargin_2766',['CFAR_MARGIN',['../example__vibration_8c.html#a7306a8483e90c20f0236450cb3e3a43f',1,'example_vibration.c']]],
+  ['cfar_5fwindow_5flength_2767',['CFAR_WINDOW_LENGTH',['../example__vibration_8c.html#a5d3ed23efe76216f4562e02f1eeb43d9',1,'example_vibration.c']]],
+  ['close_5frange_5fstart_2768',['CLOSE_RANGE_START',['../ref__app__tank__level_8c.html#a224e5407ad5ac714176f4bd523302e61',1,'ref_app_tank_level.c']]],
+  ['config_5fhwaas_2769',['CONFIG_HWAAS',['../example__surface__velocity_8c.html#ad38150a979c6b3c392e52a83df1880e7',1,'example_surface_velocity.c']]],
+  ['config_5fpsd_5flp_5fcoeff_2770',['CONFIG_PSD_LP_COEFF',['../example__surface__velocity_8c.html#a636b344ee2454095c86e0900e61e8def',1,'example_surface_velocity.c']]],
+  ['config_5fsensor_5fangle_2771',['CONFIG_SENSOR_ANGLE',['../example__surface__velocity_8c.html#ac8376b91b417dd0c24490b02b1c750e4',1,'example_surface_velocity.c']]],
+  ['config_5fsurface_5fdistance_2772',['CONFIG_SURFACE_DISTANCE',['../example__surface__velocity_8c.html#a0749d0b5c7c5457929c76588c528e92f',1,'example_surface_velocity.c']]],
+  ['config_5fsweep_5frate_2773',['CONFIG_SWEEP_RATE',['../example__surface__velocity_8c.html#adb81b5b1cfd6ecbe396debbbec8150ac',1,'example_surface_velocity.c']]],
+  ['config_5fthreshold_5fsensitivity_2774',['CONFIG_THRESHOLD_SENSITIVITY',['../example__surface__velocity_8c.html#ad5d7da6977c1ac45c589146306118e6a',1,'example_surface_velocity.c']]],
+  ['config_5fvelocity_5flp_5fcoeff_2775',['CONFIG_VELOCITY_LP_COEFF',['../example__surface__velocity_8c.html#a6a8e45f4cc4c5bb42640a58a68dbdbb3',1,'example_surface_velocity.c']]]
+];
