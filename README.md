@@ -1,12 +1,27 @@
 # Objetive Adquisition
 
+**Estado del proyecto: en desarrollo.**
+
 Simulador Python de una plataforma pan/tilt de dos grados de libertad con
 un modelo de radar Acconeer A121, objetivos aéreos, dinámica de proyectiles
 y visualización 3D. Incluye un motor cinemático y una integración opcional
 con Crazyflow/JAX para la dinámica de los drones.
 
+El simulador permite probar políticas de adquisición de objetivos en un entorno
+virtual antes de evaluar su aplicación en la torreta física. También está pensado
+como entorno de entrenamiento para modelos de IA que complementen o sustituyan
+esas políticas.
+
 El radar y los actuadores son modelos de software. El SDK C y los archivos
 de hardware se conservan como referencias independientes del simulador.
+
+## Física
+
+La sección física reúne los ensayos de banco, los sketches de Arduino y su
+documentación. El primer ensayo usa un sensor de ultrasonidos y un servo para
+observar el comportamiento de un filtro de Kalman. Los resultados y las
+grabaciones de los próximos ensayos tendrán su sitio en esta sección.
+[README de las pruebas físicas](fisica/README.md)
 
 ## Vista previa
 
@@ -34,6 +49,7 @@ de hardware se conservan como referencias independientes del simulador.
 ├── visualization/            # Matplotlib y MuJoCo
 ├── tests/                    # Pruebas unittest
 ├── docs/simulation_plan.md   # Plan de diseño original
+├── fisica/                   # Sketches de Arduino, documentación y vídeos de banco
 ├── hardware/                 # Esquema, bibliotecas Altium y proyecto inicial IDE
 ├── vendor/acconeer_sdk/      # SDK original, documentación y licencias
 ├── assets/examples/          # GIF y vídeos de ejemplo existentes
